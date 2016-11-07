@@ -1,0 +1,31 @@
+{
+  "name": "parasut",
+  "version": "0.0.1",
+  "description": "Parasut Client for NodeJS",
+  "scripts": {
+    "main": "index.js",
+    "test": "./node_modules/.bin/mocha --recursive --ui bdd",
+    "lint": "./node_modules/.bin/eslint .",
+    "major": "npm version major -m 'New major version %s'",
+    "minor": "npm version minor -m 'New minor version %s'",
+    "patch": "npm version patch -m 'New patch version %s'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/salimkayabasi/parasut.git"
+  },
+  "author": "salim.kayabasi@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/salimkayabasi/parasut/issues"
+  },
+  "homepage": "https://github.com/salimkayabasi/parasut#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "dirty-chai": "^1.2.2",
+    "eslint": "^3.9.1",
+    "eslint-config-airbnb-base": "^10.0.0",
+    "eslint-plugin-import": "^2.1.0",
+    "mocha": "^3.1.2"
+  }
+}
