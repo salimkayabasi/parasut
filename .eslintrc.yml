@@ -1,0 +1,18 @@
+extends: airbnb-base/legacy
+env:
+  mocha: true
+  node: true
+plugins:
+  - import
+rules:
+  func-names: 0
+  no-underscore-dangle:
+  - error
+  - allow:
+    - _id
+  vars-on-top: 0
+  no-param-reassign: 0
+  global-require: 0
+  no-plusplus:
+  - 2
+  - allowForLoopAfterthoughts: true
