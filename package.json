@@ -1,6 +1,6 @@
 {
   "name": "parasut",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Parasut Client for NodeJS",
   "scripts": {
     "main": "index.js",
