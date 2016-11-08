@@ -1,22 +1,23 @@
-var chai = require('chai');
-var dirtyChai = require('dirty-chai');
+const chai = require('chai');
+const dirtyChai = require('dirty-chai');
+
 chai.use(dirtyChai);
-var expect = chai.expect;
+const expect = chai.expect;
 
-var Parasut = require('../');
+const Parasut = require('../');
 
-var id = process.env.clientId;
-var secret = process.env.clientSecret;
-var firmNo = process.env.firmNo;
+const id = process.env.clientId;
+const secret = process.env.clientSecret;
+const firmNo = process.env.firmNo;
 
-var parasut = new Parasut(id, secret, firmNo);
+const parasut = new Parasut(id, secret, firmNo);
 
-describe('Get Contacts', function () {
-  before(function (done) {
+describe('Get Contacts', () => {
+  before((done) => {
     parasut.authorize(done);
   });
-  it('should work', function (done) {
-    parasut.contacts.list(function (error, body) {
+  it('should work', (done) => {
+    parasut.contacts.list((error, body) => {
       expect(error).not.to.be.exist();
       expect(body).to.be.exist();
       done();

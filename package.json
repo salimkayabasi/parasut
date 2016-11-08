@@ -15,7 +15,7 @@
     "url": "git+https://github.com/salimkayabasi/parasut.git"
   },
   "author": "salim.kayabasi@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/salimkayabasi/parasut/issues"
   },
@@ -24,8 +24,10 @@
     "chai": "^3.5.0",
     "dirty-chai": "^1.2.2",
     "eslint": "^3.9.1",
-    "eslint-config-airbnb-base": "^10.0.0",
-    "eslint-plugin-import": "^2.1.0",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "2.2.3",
+    "eslint-plugin-react": "^6.6.0",
     "mocha": "^3.1.2"
   },
   "dependencies": {
